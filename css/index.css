@@ -27,3 +27,74 @@ main {
     background-color: hsl(179, 63%, 64%);
 }
 
+.top-section h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.top-section h2 {
+    color: hsl(71, 73%, 54%);
+}
+
+.top-section p {
+    color: hsl(218, 22%, 67%);
+}
+
+.left-section h1,
+.left-section h2 {
+    color: white;
+}
+
+.left-section p {
+    color: rgb(184, 184, 184);
+}
+
+.left-section h3 {
+    color: white;   
+}
+
+.right-section {
+    color: white;
+}
+
+.content-top {
+    padding: 30px 90px 40px 40px;
+}
+
+.content-top h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.content-top h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 90px 40px 40px;
+}
+
+.content-left h2 {
+    padding-bottom: 15px;
+}
+
+.subscription {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.subscription p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.subscription h3 {
+    font-size: .5rem;
+    font-weight: 400;
+}
