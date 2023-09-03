@@ -1,14 +1,14 @@
 body {
-    display: flex;
+    display: flex;  
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
     background-color: hsl(204, 43%, 93%);
     font-family: 'Karla';
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+    box-shadow: 0 0 900px 0 black;
 }
 
 .bottom-section {
@@ -109,6 +109,7 @@ main {
     text-align: center;
     padding: 15px 0 15px 0;
     border-radius: 5px;
+    box-shadow: 130px 15px 300px 0 black;
 }
 
 .content-left h3 {
