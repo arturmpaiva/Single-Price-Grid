@@ -2,8 +2,28 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla';
 }
 
 main {
-    display: grid;
+    display: block;   
 }
+
+.bottom-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-section {
+    background-color: white;
+}
+
+.left-section {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.right-section {
+    background-color: hsl(179, 63%, 64%);
+}
+
