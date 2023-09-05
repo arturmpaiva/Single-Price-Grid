@@ -7,10 +7,6 @@ body {
     font-family: 'Karla';
 }
 
-main {
-    
-}
-
 .bottom-section {
     display: flex;
     flex-direction: row;
@@ -24,10 +20,12 @@ main {
 
 .left-section {
     background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
 }
 
 .right-section {
     background-color: hsl(179, 63%, 64%);
+    border-bottom-right-radius: 10px;
 }
 
 .top-section h1 {
@@ -132,4 +130,47 @@ main {
 
 .content-right li {
     list-style: none;
+}
+
+@media (max-width: 450px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 60px 30px 60px 30px;
+    }
+
+    .bottom-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-section {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .left-section {
+        border-bottom-left-radius: 0;
+    }
+
+    .right-section {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .content-top {
+        padding: 30px 40px 40px 40px;
+    }
+
+    .content-top p {
+        line-height: 2rem;
+    }
+
+    .content-top h2 {
+        font-size: 1.2rem;
+    }
+
+    .content-left {
+        padding: 40px 40px 40px 40px;
+    }
 }
